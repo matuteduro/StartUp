@@ -30,6 +30,7 @@ const Members = ({imgSource, country, comment, name, profession}) =>{
                     objectFit="cover"
                     layout="responsive"
                     src={imgSource}
+                    alt=''
                 />
                 <div className={styles.border}></div>
             </div>

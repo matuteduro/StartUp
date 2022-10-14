@@ -64,6 +64,7 @@ const Methods = () => {
               objectFit="cover"
               layout="fill"
               src="/method1.jpg"
+              alt=''
             />
           )}
           {method2 && (
@@ -73,6 +74,7 @@ const Methods = () => {
               objectFit="cover"
               layout="fill"
               src="/method2.jpg"
+              alt=''
             />
           )}
           {method3 && (
@@ -82,6 +84,7 @@ const Methods = () => {
               objectFit="cover"
               layout="fill"
               src="/method3.jpg"
+              alt=''
             />
           )}
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from './Section'
-import styles from '../styles/intro.module.scss'
+import styles from '../styles/Intro.module.scss'
 import Image from 'next/image';
 import {FaArrowRight} from 'react-icons/fa'
 import Link from "next/link"
@@ -41,6 +41,7 @@ const Intro = () => {
             objectFit= "contain"
             layout="responsive"
             src="/intro.png"
+            alt=''
           />
         </div>
       </div>

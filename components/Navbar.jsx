@@ -114,6 +114,7 @@ const Navbar = ({ setMode, mode }) => {
                                                         height="100%"
                                                         objectFit="cover"
                                                         src="/profile.png"
+                                                        alt=''
                                                     />
                                                 </div>
                                                 <div className={styles.border}></div>
