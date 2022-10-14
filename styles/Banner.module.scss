@@ -2,7 +2,8 @@
     position: relative;
     z-index: 2;
     padding: 1rem 0rem;
-    background: var(--coplor-dark-light);
+    border-bottom: 1px solid var(--color-border-dark);
+    background: var(--color-dark-light);
     @media screen and (max-width: 550px){
         padding: 1rem 0rem;
       }

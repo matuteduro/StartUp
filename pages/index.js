@@ -5,7 +5,8 @@ import Banner from '../components/Banner';
 import Navbar from '../components/Navbar';
 import {GradientCircleRight, GradientCircleLeft } from '../components/GradientCircle';
 import Intro from '../components/Intro';
-
+import Services from "../components/Services"
+import Methods from "../components/Methods"
 
 export default function Home() {
   const [mode, setMode] = useState(true);
@@ -24,6 +25,8 @@ export default function Home() {
         <GradientCircleRight/>
         <GradientCircleLeft/>
         <Intro />
+        <Services />
+        <Methods />
       </main>
     </div>
   );
