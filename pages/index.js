@@ -7,6 +7,7 @@ import {GradientCircleRight, GradientCircleLeft } from '../components/GradientCi
 import Intro from '../components/Intro';
 import Services from "../components/Services"
 import Methods from "../components/Methods"
+import Pricing from '../components/Pricing';
 
 export default function Home() {
   const [mode, setMode] = useState(true);
@@ -27,6 +28,7 @@ export default function Home() {
         <Intro />
         <Services />
         <Methods />
+        <Pricing/>
       </main>
     </div>
   );
