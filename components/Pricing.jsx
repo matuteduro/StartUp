@@ -51,22 +51,19 @@ const Pricing = () => {
             <div className={styles.details}>
                 <div className={styles.detail}>
                     <h3>With Your Purchase</h3>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
+                    <Feature>A Design for your Web or App</Feature>
+                    <Feature>Digital Marketing</Feature>
+                    <Feature>Web Development</Feature>
+                    <Feature>App Development</Feature>
+                    <Feature>Community Manager </Feature>
+                    <Feature>Social Development</Feature>
+                    <Feature>Seo Friendly</Feature>
+                    <Feature>Database Analytics</Feature>
                 </div>
                 <div className={styles.detail}>
-                    <h3>For Free</h3>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
-                    <Feature>A</Feature>
+{/*                 <h3>For Free</h3>
+                    <Feature>Review of your actual website</Feature>
+  */}
                 </div>
             </div>
         </div>

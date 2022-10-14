@@ -38,19 +38,21 @@ const Services = () => {
             <Fade cascade damping={0.05}>
 
                 <Service 
-                    number={2}
+                    number={1}
                     background="var(--color-secondary-dark"
                     color="var(--color-secondary)"
                     title="Design & Creative"
+                    description="You give us your ideas, and we will give you what our expert in UX/UI design says that will be best for your business"
                 />
                 <Service
-                    number={3}
+                    number={2}
                     background="var(--color-tertiary-dark)"
                     color="var(--color-tertiary"
-                    title="App Development"
+                    title="Web/App Development"
+                    description="At this point, your Web and App will be ready to deploy and start growing"
                 />
                 <Service 
-                    number={4}
+                    number={3}
                     line={false}
                     background="var(--color-pink-dark)"
                     color="var(--color-pink)"

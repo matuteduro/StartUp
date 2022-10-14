@@ -8,6 +8,8 @@ import Intro from '../components/Intro';
 import Services from "../components/Services"
 import Methods from "../components/Methods"
 import Pricing from '../components/Pricing';
+import Team from '../components/Team';
+import Contact from '../components/Contact';
 
 export default function Home() {
   const [mode, setMode] = useState(true);
@@ -29,6 +31,8 @@ export default function Home() {
         <Services />
         <Methods />
         <Pricing/>
+        <Team/>
+        <Contact/>
       </main>
     </div>
   );
